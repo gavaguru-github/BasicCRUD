@@ -1,0 +1,26 @@
+entity ApplicationMenu {
+	parentId Long,
+    name String,
+    englishText String,
+    frenchPath String,
+    role  Long,
+    order Long
+}
+
+entity BreadCrumb {
+	path String,
+    name String
+}
+
+// Set pagination options
+paginate ApplicationMenu with infinite-scroll
+paginate BreadCrumb with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

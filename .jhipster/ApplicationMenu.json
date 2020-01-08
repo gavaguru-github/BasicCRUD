@@ -1,0 +1,40 @@
+{
+    "name": "ApplicationMenu",
+    "fields": [
+        {
+            "fieldName": "parentId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "englishText",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "frenchPath",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "role",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "order",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200108162641",
+    "entityTableName": "application_menu",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

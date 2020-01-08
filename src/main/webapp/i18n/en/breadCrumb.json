@@ -1,0 +1,23 @@
+{
+  "basicCrudApp": {
+    "breadCrumb": {
+      "home": {
+        "title": "Bread Crumbs",
+        "createLabel": "Create a new Bread Crumb",
+        "createOrEditLabel": "Create or edit a Bread Crumb",
+        "notFound": "No Bread Crumbs found"
+      },
+      "created": "A new Bread Crumb is created with identifier {{ param }}",
+      "updated": "A Bread Crumb is updated with identifier {{ param }}",
+      "deleted": "A Bread Crumb is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Bread Crumb {{ id }}?"
+      },
+      "detail": {
+        "title": "Bread Crumb"
+      },
+      "path": "Path",
+      "name": "Name"
+    }
+  }
+}
