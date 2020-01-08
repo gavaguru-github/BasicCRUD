@@ -44,6 +44,8 @@ public class CacheConfiguration {
             createCache(cm, com.ig.crud.domain.User.class.getName() + ".authorities");
             createCache(cm, com.ig.crud.domain.PersistentToken.class.getName());
             createCache(cm, com.ig.crud.domain.User.class.getName() + ".persistentTokens");
+            createCache(cm, com.ig.crud.domain.ApplicationMenu.class.getName());
+            createCache(cm, com.ig.crud.domain.BreadCrumb.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

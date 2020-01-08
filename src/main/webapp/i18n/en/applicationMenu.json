@@ -1,0 +1,27 @@
+{
+  "basicCrudApp": {
+    "applicationMenu": {
+      "home": {
+        "title": "Application Menus",
+        "createLabel": "Create a new Application Menu",
+        "createOrEditLabel": "Create or edit a Application Menu",
+        "notFound": "No Application Menus found"
+      },
+      "created": "A new Application Menu is created with identifier {{ param }}",
+      "updated": "A Application Menu is updated with identifier {{ param }}",
+      "deleted": "A Application Menu is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Application Menu {{ id }}?"
+      },
+      "detail": {
+        "title": "Application Menu"
+      },
+      "parentId": "Parent Id",
+      "name": "Name",
+      "englishText": "English Text",
+      "frenchPath": "French Path",
+      "role": "Role",
+      "order": "Order"
+    }
+  }
+}
